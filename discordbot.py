@@ -15,4 +15,4 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
 
-bot.run(token)
+client.run(token)
