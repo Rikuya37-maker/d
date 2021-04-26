@@ -15,9 +15,4 @@ async def on_message(message):
     if message.content == '/neko':
         await message.channel.send('にゃーん')
 
-@bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
-
-
 bot.run(token)
